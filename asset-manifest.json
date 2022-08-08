@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Ts-Todo-App/static/css/main.f4f50916.css",
+    "main.js": "/Ts-Todo-App/static/js/main.a577f250.js",
+    "index.html": "/Ts-Todo-App/index.html",
+    "main.f4f50916.css.map": "/Ts-Todo-App/static/css/main.f4f50916.css.map",
+    "main.a577f250.js.map": "/Ts-Todo-App/static/js/main.a577f250.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4f50916.css",
+    "static/js/main.a577f250.js"
+  ]
+}
