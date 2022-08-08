@@ -27,12 +27,12 @@
     flex-direction: column;
     place-items: center;
     padding: 5rem;
-    color: rgb(164, 164, 164);
+    color: rgba(164, 164, 164, 0.637);
 }
 
 .no_task_message .no_task_icon{
     font-size: 6rem;
-    color: orange;
+    color: rgba(255, 166, 0, 0.247);
 }
 
 @media (max-width: 800px) {
