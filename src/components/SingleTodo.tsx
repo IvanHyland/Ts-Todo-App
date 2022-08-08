@@ -60,8 +60,6 @@ export const SingleTodo = ({todo, todos, setTodos} : Props) => {
         )
       }
 
-      
-
       <div>
         <span className="icon" onClick={ ()=>
           {
@@ -72,6 +70,7 @@ export const SingleTodo = ({todo, todos, setTodos} : Props) => {
         }>
           <AiFillEdit />
         </span>
+            
         <span className="icon">
           <AiFillDelete onClick={()=>handleDelete(todo.id)}/>
         </span>
