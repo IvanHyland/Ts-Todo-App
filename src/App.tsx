@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { BiLayer } from 'react-icons/bi'
 import './App.css'
 import InputField from './components/InputField'
 import { TodoList } from './components/TodoList'
@@ -29,7 +30,18 @@ const App : React.FC = () => {
     <div className="App">
       <span className="heading">Hyland TaskMaker</span>
       <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
-      <TodoList todos={todos} setTodos={setTodos}/>
+      {
+        (todos.length >= 1) ? 
+        (
+          <TodoList todos={todos} setTodos={setTodos}/>
+        ) : 
+        (
+          <div className='no_task_message'>
+             <BiLayer className='no_task_icon'/>
+            <h1>You don't have any tasks yet</h1>
+          </div>
+        )
+      }
     </div>
   )
 }
