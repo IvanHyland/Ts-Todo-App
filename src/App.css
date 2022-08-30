@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 
+/* font-family: 'Neucha', cursive; */
+
 .App {
-    width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: #ffffff;
-    color: darkslategrey;
+    background-color: #2a3e54;
     font-family: 'Neucha', cursive;
 }
 
@@ -16,23 +15,10 @@
     text-transform: uppercase;
     font-size: 2.4rem;
     margin: 30px 0;
-    color: rgb(0, 141, 143);
+    color: #fff;
     text-align: center;
     z-index: 1;
     text-align: center;
-}
-
-.no_task_message{
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-    padding: 5rem;
-    color: rgba(164, 164, 164, 0.637);
-}
-
-.no_task_message .no_task_icon{
-    font-size: 6rem;
-    color: rgba(255, 166, 0, 0.247);
 }
 
 @media (max-width: 800px) {
